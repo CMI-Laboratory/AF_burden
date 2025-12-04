@@ -16,34 +16,7 @@ This repository contains code for Atrial Fibrillation (AF) detection using ECG d
 - `models/`: Directory to save and load trained models.
 - `requirements.txt`: List of Python dependencies.
 
-## Setup
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository_url>
-    cd AF_Codes
     ```
-
-2.  **Install dependencies:**
-    It is recommended to use a virtual environment.
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Data Preparation
-
-The notebooks expect data to be placed in the `data/` directory. You need to provide the following files:
-
--   **For Training (`modeling_MIMIC_AfibChallengeDataset.ipynb`):**
-    -   `data/train_afib_notFiltered_aug.csv`
-    -   `data/train_nonafib_notFiltered_aug.csv`
-    -   `data/test_afib_notFiltered_aug.csv`
-    -   `data/test_nonafib_notFiltered_aug.csv`
-
--   **For Validation (`externalValidationShaoxing.ipynb`):**
-    -   `data/shaoxingECG.csv`
-
-Ensure these CSV files contain the ECG signal data and labels as expected by the notebooks.
 
 ## Usage
 
