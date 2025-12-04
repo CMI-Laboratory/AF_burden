@@ -1,0 +1,9 @@
+tensorflow
+scikit-learn
+scipy
+pandas
+numpy
+matplotlib
+scikit-image
+google-cloud-storage
+tensorflow-addons
